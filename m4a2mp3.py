@@ -1,3 +1,10 @@
+'''
+4/13/23 mini description
+super annoying quicktime m4a audio export format but fastest sys default audio rip
+so easier to create this script and convert in one-go after
+'''
+
+
 import sys
 import os
 from pydub import AudioSegment
