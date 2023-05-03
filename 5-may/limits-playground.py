@@ -49,6 +49,41 @@ def plot_func(func, label):
 # label = "y=x^2 / x^3"
 
 
+# More advanced limits: 
+
+
+# The limit of sin(x)/x as x approaches 0: f(x) = sin(x)/x
+# func = sp.sin(x)/x
+# label = "y=sin(x)/x"
+
+# The limit of (1-cos(x))/x as x approaches 0: f(x) = (1 - sp.cos(x))/x
+# func = (1 - sp.cos(x))/x
+# label = "y=(1-cos(x))/x"
+
+# The limit of (e^x - 1)/x as x approaches 0: f(x) = (sp.exp(x) - 1)/x
+# func = (sp.exp(x) - 1)/x
+# label = "y=(e^x - 1)/x"
+
+# The limit of ln(x+1)/x as x approaches 0: f(x) = sp.log(x+1)/x
+# func = sp.log(x+1)/x
+# label = "y=ln(x+1)/x"
+
+# The limit of (sqrt(x+1) - 1)/x as x approaches 0: f(x) = (sp.sqrt(x+1) - 1)/x
+func = (sp.sqrt(x+1) - 1)/x
+label = "y=(sqrt(x+1) - 1)/x"
+
+# The limit of x^x as x approaches 0: f(x) = x**x
+# Note: It's generally considered that 0^0 is an undetermined form. However, the limit of x^x as x approaches 0 is 1.
+# func = x**x
+# label = "y=x^x"
+
+# The limit of (x^3 - 8)/(x - 2) as x approaches 2: f(x) = (x**3 - 8)/(x - 2)
+# func = (x**3 - 8)/(x - 2)
+# label = "y=(x^3 - 8)/(x - 2)"
+
+# The limit of (x^4 - 16)/(x - 2) as x approaches 2: f(x) = (x**4 - 16)/(x - 2)
+# func = (x**4 - 16)/(x - 2)
+# label = "y=(x^4 - 16)/(x - 2)"
 
 
 # Calculate the limit and plot the function
