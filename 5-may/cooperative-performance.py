@@ -1,6 +1,7 @@
 #  Cooperative Performance (CP) measures the overall performance of all agents in the system as they collaborate to achieve a common goal. This metric could be more appropriate for evaluating emergence in the context of multi-agent reinforcement learning.
 # In this script, the "Cooperative Performance" is used for emergence, and the model's method train_agents_cooperatively should return the cooperative performance of all agents working together in the multi-agent environment. 
 
+# 6/2/23 adding stakepost comment here as revisitation of this repo - restarting it
 
 import neural_net_LLM_module as nnlm
 from sklearn.metrics import accuracy_score, f1_score
