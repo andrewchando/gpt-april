@@ -1,7 +1,10 @@
 
 
+## Week 24 (June 12-18)
+* 6/12 mon
 ## Week 23 (June 5-11)
 
+* 6/11 sun
 * 6/10 sat
   * [Tracking Everything Everywhere All at Once
 ](https://twitter.com/sstj389/status/1667000331958468608)
