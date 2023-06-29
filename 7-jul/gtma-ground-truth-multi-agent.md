@@ -4,7 +4,7 @@ placeholder TODO explore thread in july, in the context of eigenvectors
 i want to explore essentialism in a pure technical sense in the context of eignvectors and meaning making in neural nets - can you give me a quick description of this endeavor? im using it as a jump off point for projects, would greatly appreciate attention to detail and really creative, intellectually stimulating approaches. give me 5 - technical, include as much specifics, libraries python
 
 
-## agent
+## agent$$
 Essentialist Feature Extraction:
 
 This approach would involve using eigenvectors to extract the essential features from the high-dimensional data that neural networks often work with. By applying a technique like Principal Component Analysis (PCA), which involves the calculation of eigenvectors, you could identify the most 'essential' dimensions of your data - those that capture the most variance. You could use libraries like numpy, scikit-learn and matplotlib to accomplish this.
