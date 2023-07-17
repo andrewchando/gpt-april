@@ -7,6 +7,7 @@
 import yfinance as yf
 import pandas as pd
 
+
 # Define a function to calculate the PEG ratio
 def calculate_peg(pe_ratio, eps_growth):
     # If eps_growth is zero, return a high number to disqualify the stock
@@ -23,6 +24,9 @@ tickers = df['Symbol'].tolist()
 
 # Filter the stocks based on the criteria
 filtered_stocks = []
+# for error handling
+skipped_stocks = []
+
 
 for ticker in tickers:
     try:
@@ -41,5 +45,8 @@ for ticker in tickers:
                 filtered_stocks.append(ticker)
     except Exception as e:
         print(f"Could not retrieve data for {ticker}. Reason: {str(e)}")
+        # add more handling logic here. add this ticker to a separate list:
+        skipped_stocks.append(ticker)   
+
 
 print(f"Filtered stocks: {filtered_stocks}")
